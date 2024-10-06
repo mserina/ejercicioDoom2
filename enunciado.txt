@@ -1,0 +1,28 @@
+### Ejercicio 2 con DOM
+
+## Crea un archivos html: index
+
+Este proyecto trata de realizar prácticas con el DOM desde JavaScript
+
+Para ello, crearemos un archivos HTML,  index, que contendrá una lista de productos, y se mostrará una ficha del producto utilizando el modal de bootstrap.
+
+Para los estilos usaremos bootstrap (group-list para el index, card para el detalle).
+
+Crearemos los botones o menú para el crud de artículos.
+
+En el archivo Funciones.js, tendremos una lista de artículos, tal que así:
+
+articulos = [
+    {id: 0, name: 'Ratón multiusos', color: 'black', pvp: 15},
+    {id: 1, name: 'Monitor HV 3000', color: 'black', pvp: 180},
+    ...
+]
+
+Crea al menos 10 artículos.
+
+Además, en el mismo funciones.js crearemos las funciones necesarias para el CRUD de artículos.
+
+En el Main:
+Se recibirán las peticiones de la vista (index), de tal manera que utilizará las funciones del modelo (funciones.js) para responder a la petición del usuario.
+
+Implementa todo lo necesario para un crud funcional.
